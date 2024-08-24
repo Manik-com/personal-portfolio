@@ -173,11 +173,10 @@ h2 {
     display: flex;
 }
 
-.logo-1 {
-    color: #ffffff;
-    background-color: #19ACFF;
-    margin-bottom: 40px;
-    margin-right: 20px;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
     border-radius: 10px;
     text-align: center;
@@ -185,6 +184,13 @@ h2 {
     font-size: 48px;
     font-weight: 700;
     box-shadow: 6px 10px 20px -9px #000000;
+}
+
+.logo-1 {
+    color: #ffffff;
+    background-color: #19ACFF;
+    margin-bottom: 40px;
+    margin-right: 20px;
 }
 
 .arrow {
@@ -197,13 +203,13 @@ h2 {
     background-color: #FFE819;
     margin-bottom: 40px;
     margin-right: 20px;
-    padding: 50px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 700;
-    box-shadow: 6px 10px 20px -9px #000000;
+    /* padding: 50px; */
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    /* font-family: Poppins; */
+    /* font-size: 48px; */
+    /* font-weight: 700; */
+    /* box-shadow: 6px 10px 20px -9px #000000; */
 }
 
 .logo-3 {
@@ -211,13 +217,13 @@ h2 {
     background-color: #FF1919;
     margin-bottom: 40px;
     margin-right: 20px;
-    padding: 50px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 700;
-    box-shadow: 6px 10px 20px -9px #000000;
+    /* padding: 50px; */
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    /* font-family: Poppins; */
+    /* font-size: 48px; */
+    /* font-weight: 700; */
+    /* box-shadow: 6px 10px 20px -9px #000000; */
 }
 
 .project-name {
@@ -451,8 +457,6 @@ h2 {
   /* Visual styles */
   .accordion {
     color: var(--theme);
-    border: 2px solid;
-    border-radius: 0.5rem;
     overflow: hidden;
   }
   .tab__label,
